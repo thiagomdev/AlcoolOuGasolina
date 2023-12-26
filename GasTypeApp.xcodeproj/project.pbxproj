@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5917E29DDBB67CF8E044094A /* Pods_GasTypeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D7F03F46F44DE0FB097B76 /* Pods_GasTypeApp.framework */; };
+		AA5DCF812B36708D003B89D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCF802B36708D003B89D5 /* AppDelegate.swift */; };
+		AA5DCF852B36708D003B89D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCF842B36708D003B89D5 /* HomeViewController.swift */; };
+		AA5DCF8A2B36708E003B89D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5DCF892B36708E003B89D5 /* Assets.xcassets */; };
+		AA5DCF8D2B36708E003B89D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5DCF8B2B36708E003B89D5 /* LaunchScreen.storyboard */; };
+		AA5DCF9C2B36739E003B89D5 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCF9B2B36739E003B89D5 /* ViewConfiguration.swift */; };
+		AA5DCF9E2B3673CC003B89D5 /* NSLayoutConstraints+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCF9D2B3673CC003B89D5 /* NSLayoutConstraints+Extension.swift */; };
+		AA5DCFA02B367414003B89D5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCF9F2B367414003B89D5 /* AppCoordinator.swift */; };
+		AA5DCFA22B3674EC003B89D5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFA12B3674EC003B89D5 /* Coordinator.swift */; };
+		AA5DCFA92B367622003B89D5 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFA82B367622003B89D5 /* HomeCoordinator.swift */; };
+		AA5DCFAB2B367C19003B89D5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFAA2B367C19003B89D5 /* HomeViewModel.swift */; };
+		AA5DCFAD2B36887D003B89D5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFAC2B36887D003B89D5 /* UIView+Extension.swift */; };
+		AA5DCFB32B368BAD003B89D5 /* GasTypeCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFB22B368BAD003B89D5 /* GasTypeCalculatorViewController.swift */; };
+		AA5DCFB52B368BDA003B89D5 /* GasTypeCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFB42B368BDA003B89D5 /* GasTypeCalculatorViewModel.swift */; };
+		AA5DCFB72B368BFA003B89D5 /* GasTypeCalculatorCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFB62B368BFA003B89D5 /* GasTypeCalculatorCoordinator.swift */; };
+		AA5DCFB92B380568003B89D5 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFB82B380568003B89D5 /* CustomAlert.swift */; };
+		AA5DCFBF2B389194003B89D5 /* CalculatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFBE2B389194003B89D5 /* CalculatedViewController.swift */; };
+		AA5DCFC12B3891AF003B89D5 /* CalculatedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFC02B3891AF003B89D5 /* CalculatedViewModel.swift */; };
+		AA5DCFC32B3891D8003B89D5 /* CalculatedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFC22B3891D8003B89D5 /* CalculatedCoordinator.swift */; };
+		AA5DCFC52B3A7F64003B89D5 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFC42B3A7F63003B89D5 /* UITextField+Extension.swift */; };
+		AA9423DD2B3AF811001FF602 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9423DC2B3AF811001FF602 /* UIImageView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39D7F03F46F44DE0FB097B76 /* Pods_GasTypeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasTypeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6574E6A62C88E75869A86BCB /* Pods-GasTypeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasTypeApp.release.xcconfig"; path = "Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp.release.xcconfig"; sourceTree = "<group>"; };
+		8FAEF3983C22267B210D7027 /* Pods-GasTypeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasTypeApp.debug.xcconfig"; path = "Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AA5DCF7D2B36708D003B89D5 /* GasTypeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasTypeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5DCF802B36708D003B89D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA5DCF842B36708D003B89D5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AA5DCF892B36708E003B89D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA5DCF8C2B36708E003B89D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA5DCF8E2B36708E003B89D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5DCF9B2B36739E003B89D5 /* ViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		AA5DCF9D2B3673CC003B89D5 /* NSLayoutConstraints+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraints+Extension.swift"; sourceTree = "<group>"; };
+		AA5DCF9F2B367414003B89D5 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AA5DCFA12B3674EC003B89D5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AA5DCFA82B367622003B89D5 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		AA5DCFAA2B367C19003B89D5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AA5DCFAC2B36887D003B89D5 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		AA5DCFB22B368BAD003B89D5 /* GasTypeCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorViewController.swift; sourceTree = "<group>"; };
+		AA5DCFB42B368BDA003B89D5 /* GasTypeCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorViewModel.swift; sourceTree = "<group>"; };
+		AA5DCFB62B368BFA003B89D5 /* GasTypeCalculatorCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorCoordinator.swift; sourceTree = "<group>"; };
+		AA5DCFB82B380568003B89D5 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		AA5DCFBE2B389194003B89D5 /* CalculatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedViewController.swift; sourceTree = "<group>"; };
+		AA5DCFC02B3891AF003B89D5 /* CalculatedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedViewModel.swift; sourceTree = "<group>"; };
+		AA5DCFC22B3891D8003B89D5 /* CalculatedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedCoordinator.swift; sourceTree = "<group>"; };
+		AA5DCFC42B3A7F63003B89D5 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		AA9423DC2B3AF811001FF602 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5DCF7A2B36708D003B89D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5917E29DDBB67CF8E044094A /* Pods_GasTypeApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7CAA7A9C204D76BBA9DB3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FAEF3983C22267B210D7027 /* Pods-GasTypeApp.debug.xcconfig */,
+				6574E6A62C88E75869A86BCB /* Pods-GasTypeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA5DCF742B36708D003B89D5 = {
+			isa = PBXGroup;
+			children = (
+				AA5DCF7F2B36708D003B89D5 /* GasTypeApp */,
+				AA5DCF7E2B36708D003B89D5 /* Products */,
+				3B7CAA7A9C204D76BBA9DB3A /* Pods */,
+				B6E9DBE7FE075777140388B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5DCF7E2B36708D003B89D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCF7D2B36708D003B89D5 /* GasTypeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5DCF7F2B36708D003B89D5 /* GasTypeApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCF992B367137003B89D5 /* Core */,
+				AA5DCF962B3670E7003B89D5 /* Start */,
+				AA5DCF9A2B36713D003B89D5 /* Extensions */,
+				AA5DCF952B3670E3003B89D5 /* Features */,
+				AA5DCF942B3670DE003B89D5 /* Resources */,
+			);
+			path = GasTypeApp;
+			sourceTree = "<group>";
+		};
+		AA5DCF942B3670DE003B89D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCF892B36708E003B89D5 /* Assets.xcassets */,
+				AA5DCF8B2B36708E003B89D5 /* LaunchScreen.storyboard */,
+				AA5DCF8E2B36708E003B89D5 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA5DCF952B3670E3003B89D5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCF972B367102003B89D5 /* Scene */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AA5DCF962B3670E7003B89D5 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCF9F2B367414003B89D5 /* AppCoordinator.swift */,
+				AA5DCF802B36708D003B89D5 /* AppDelegate.swift */,
+				AA5DCFA12B3674EC003B89D5 /* Coordinator.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		AA5DCF972B367102003B89D5 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCF982B36710A003B89D5 /* Home */,
+				AA5DCFAE2B368B16003B89D5 /* CalculatorView */,
+				AA5DCFBA2B389130003B89D5 /* CalculatedView */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		AA5DCF982B36710A003B89D5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFA52B3675FC003B89D5 /* Coordinator */,
+				AA5DCFA62B3675FF003B89D5 /* Presentation */,
+				AA5DCFA72B367602003B89D5 /* UI */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AA5DCF992B367137003B89D5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFB82B380568003B89D5 /* CustomAlert.swift */,
+				AA5DCF9B2B36739E003B89D5 /* ViewConfiguration.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AA5DCF9A2B36713D003B89D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFAC2B36887D003B89D5 /* UIView+Extension.swift */,
+				AA5DCFC42B3A7F63003B89D5 /* UITextField+Extension.swift */,
+				AA5DCF9D2B3673CC003B89D5 /* NSLayoutConstraints+Extension.swift */,
+				AA9423DC2B3AF811001FF602 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA5DCFA52B3675FC003B89D5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFA82B367622003B89D5 /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AA5DCFA62B3675FF003B89D5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFAA2B367C19003B89D5 /* HomeViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AA5DCFA72B367602003B89D5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCF842B36708D003B89D5 /* HomeViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AA5DCFAE2B368B16003B89D5 /* CalculatorView */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFAF2B368B6B003B89D5 /* Coordinator */,
+				AA5DCFB02B368B6D003B89D5 /* Presentation */,
+				AA5DCFB12B368B71003B89D5 /* UI */,
+			);
+			path = CalculatorView;
+			sourceTree = "<group>";
+		};
+		AA5DCFAF2B368B6B003B89D5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFB62B368BFA003B89D5 /* GasTypeCalculatorCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AA5DCFB02B368B6D003B89D5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFB42B368BDA003B89D5 /* GasTypeCalculatorViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AA5DCFB12B368B71003B89D5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFB22B368BAD003B89D5 /* GasTypeCalculatorViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AA5DCFBA2B389130003B89D5 /* CalculatedView */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFBD2B38916E003B89D5 /* Coordinator */,
+				AA5DCFBC2B38916C003B89D5 /* Presentation */,
+				AA5DCFBB2B389169003B89D5 /* UI */,
+			);
+			path = CalculatedView;
+			sourceTree = "<group>";
+		};
+		AA5DCFBB2B389169003B89D5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFBE2B389194003B89D5 /* CalculatedViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AA5DCFBC2B38916C003B89D5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFC02B3891AF003B89D5 /* CalculatedViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AA5DCFBD2B38916E003B89D5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AA5DCFC22B3891D8003B89D5 /* CalculatedCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		B6E9DBE7FE075777140388B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D7F03F46F44DE0FB097B76 /* Pods_GasTypeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5DCF7C2B36708D003B89D5 /* GasTypeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5DCF912B36708E003B89D5 /* Build configuration list for PBXNativeTarget "GasTypeApp" */;
+			buildPhases = (
+				053DAC8221BB32C778FF6987 /* [CP] Check Pods Manifest.lock */,
+				AA5DCF792B36708D003B89D5 /* Sources */,
+				AA5DCF7A2B36708D003B89D5 /* Frameworks */,
+				AA5DCF7B2B36708D003B89D5 /* Resources */,
+				262A16C8980F302C7469B411 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasTypeApp;
+			productName = GasTypeApp;
+			productReference = AA5DCF7D2B36708D003B89D5 /* GasTypeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5DCF752B36708D003B89D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AA5DCF7C2B36708D003B89D5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AA5DCF782B36708D003B89D5 /* Build configuration list for PBXProject "GasTypeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5DCF742B36708D003B89D5;
+			productRefGroup = AA5DCF7E2B36708D003B89D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5DCF7C2B36708D003B89D5 /* GasTypeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5DCF7B2B36708D003B89D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5DCF8D2B36708E003B89D5 /* LaunchScreen.storyboard in Resources */,
+				AA5DCF8A2B36708E003B89D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		053DAC8221BB32C778FF6987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GasTypeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		262A16C8980F302C7469B411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5DCF792B36708D003B89D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5DCFB72B368BFA003B89D5 /* GasTypeCalculatorCoordinator.swift in Sources */,
+				AA5DCFA02B367414003B89D5 /* AppCoordinator.swift in Sources */,
+				AA5DCF852B36708D003B89D5 /* HomeViewController.swift in Sources */,
+				AA5DCFB32B368BAD003B89D5 /* GasTypeCalculatorViewController.swift in Sources */,
+				AA5DCF9C2B36739E003B89D5 /* ViewConfiguration.swift in Sources */,
+				AA5DCFAD2B36887D003B89D5 /* UIView+Extension.swift in Sources */,
+				AA5DCFAB2B367C19003B89D5 /* HomeViewModel.swift in Sources */,
+				AA5DCFC12B3891AF003B89D5 /* CalculatedViewModel.swift in Sources */,
+				AA5DCF812B36708D003B89D5 /* AppDelegate.swift in Sources */,
+				AA5DCFA92B367622003B89D5 /* HomeCoordinator.swift in Sources */,
+				AA5DCFB52B368BDA003B89D5 /* GasTypeCalculatorViewModel.swift in Sources */,
+				AA5DCFBF2B389194003B89D5 /* CalculatedViewController.swift in Sources */,
+				AA9423DD2B3AF811001FF602 /* UIImageView+Extension.swift in Sources */,
+				AA5DCFC32B3891D8003B89D5 /* CalculatedCoordinator.swift in Sources */,
+				AA5DCFB92B380568003B89D5 /* CustomAlert.swift in Sources */,
+				AA5DCF9E2B3673CC003B89D5 /* NSLayoutConstraints+Extension.swift in Sources */,
+				AA5DCFA22B3674EC003B89D5 /* Coordinator.swift in Sources */,
+				AA5DCFC52B3A7F64003B89D5 /* UITextField+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA5DCF8B2B36708E003B89D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5DCF8C2B36708E003B89D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5DCF8F2B36708E003B89D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA5DCF902B36708E003B89D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5DCF922B36708E003B89D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FAEF3983C22267B210D7027 /* Pods-GasTypeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L923PSABUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GasTypeApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thiagomonteiro.GasTypeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA5DCF932B36708E003B89D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6574E6A62C88E75869A86BCB /* Pods-GasTypeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L923PSABUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GasTypeApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thiagomonteiro.GasTypeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5DCF782B36708D003B89D5 /* Build configuration list for PBXProject "GasTypeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5DCF8F2B36708E003B89D5 /* Debug */,
+				AA5DCF902B36708E003B89D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5DCF912B36708E003B89D5 /* Build configuration list for PBXNativeTarget "GasTypeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5DCF922B36708E003B89D5 /* Debug */,
+				AA5DCF932B36708E003B89D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5DCF752B36708D003B89D5 /* Project object */;
+}
