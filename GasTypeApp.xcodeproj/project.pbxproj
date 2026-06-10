@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5917E29DDBB67CF8E044094A /* Pods_GasTypeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D7F03F46F44DE0FB097B76 /* Pods_GasTypeApp.framework */; };
+		721AA1646FCC7EDFCD40D978 /* Pods_GasTypeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DFBC1CF8984BB940788FD8 /* Pods_GasTypeAppTests.framework */; };
+		AA3EC4C52FD9FF0B00C97CC8 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC4C42FD9FF0B00C97CC8 /* HomeViewModelTests.swift */; };
 		AA5DCF812B36708D003B89D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCF802B36708D003B89D5 /* AppDelegate.swift */; };
 		AA5DCF852B36708D003B89D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCF842B36708D003B89D5 /* HomeViewController.swift */; };
 		AA5DCF8A2B36708E003B89D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5DCF892B36708E003B89D5 /* Assets.xcassets */; };
@@ -27,7 +29,7 @@
 		AA5DCFC12B3891AF003B89D5 /* CalculatedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFC02B3891AF003B89D5 /* CalculatedViewModel.swift */; };
 		AA5DCFC32B3891D8003B89D5 /* CalculatedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFC22B3891D8003B89D5 /* CalculatedCoordinator.swift */; };
 		AA5DCFC52B3A7F64003B89D5 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFC42B3A7F63003B89D5 /* UITextField+Extension.swift */; };
-		AA7C900E2B3B769100D3164B /* GasTypeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7C900D2B3B769100D3164B /* GasTypeAppTests.swift */; };
+		AA67A3D02FDA0317006BBC0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67A3CF2FDA0317006BBC0D /* SceneDelegate.swift */; };
 		AA9423DD2B3AF811001FF602 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9423DC2B3AF811001FF602 /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,9 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C5F2397C4BC93CF1D2F7219 /* Pods-GasTypeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasTypeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GasTypeAppTests/Pods-GasTypeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36F5EAAE4391039F65AD663B /* Pods-GasTypeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasTypeAppTests.release.xcconfig"; path = "Target Support Files/Pods-GasTypeAppTests/Pods-GasTypeAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		39D7F03F46F44DE0FB097B76 /* Pods_GasTypeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasTypeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6574E6A62C88E75869A86BCB /* Pods-GasTypeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasTypeApp.release.xcconfig"; path = "Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp.release.xcconfig"; sourceTree = "<group>"; };
 		8FAEF3983C22267B210D7027 /* Pods-GasTypeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasTypeApp.debug.xcconfig"; path = "Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3EC4C42FD9FF0B00C97CC8 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		AA5DCF7D2B36708D003B89D5 /* GasTypeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasTypeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5DCF802B36708D003B89D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5DCF842B36708D003B89D5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -66,9 +71,10 @@
 		AA5DCFC02B3891AF003B89D5 /* CalculatedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedViewModel.swift; sourceTree = "<group>"; };
 		AA5DCFC22B3891D8003B89D5 /* CalculatedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedCoordinator.swift; sourceTree = "<group>"; };
 		AA5DCFC42B3A7F63003B89D5 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		AA67A3CF2FDA0317006BBC0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AA7C900B2B3B769100D3164B /* GasTypeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasTypeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7C900D2B3B769100D3164B /* GasTypeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeAppTests.swift; sourceTree = "<group>"; };
 		AA9423DC2B3AF811001FF602 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		D0DFBC1CF8984BB940788FD8 /* Pods_GasTypeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasTypeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721AA1646FCC7EDFCD40D978 /* Pods_GasTypeAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +102,8 @@
 			children = (
 				8FAEF3983C22267B210D7027 /* Pods-GasTypeApp.debug.xcconfig */,
 				6574E6A62C88E75869A86BCB /* Pods-GasTypeApp.release.xcconfig */,
+				2C5F2397C4BC93CF1D2F7219 /* Pods-GasTypeAppTests.debug.xcconfig */,
+				36F5EAAE4391039F65AD663B /* Pods-GasTypeAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,6 +164,7 @@
 				AA5DCF9F2B367414003B89D5 /* AppCoordinator.swift */,
 				AA5DCF802B36708D003B89D5 /* AppDelegate.swift */,
 				AA5DCFA12B3674EC003B89D5 /* Coordinator.swift */,
+				AA67A3CF2FDA0317006BBC0D /* SceneDelegate.swift */,
 			);
 			path = Start;
 			sourceTree = "<group>";
@@ -294,7 +304,7 @@
 		AA7C900C2B3B769100D3164B /* GasTypeAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				AA7C900D2B3B769100D3164B /* GasTypeAppTests.swift */,
+				AA3EC4C42FD9FF0B00C97CC8 /* HomeViewModelTests.swift */,
 			);
 			path = GasTypeAppTests;
 			sourceTree = "<group>";
@@ -303,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				39D7F03F46F44DE0FB097B76 /* Pods_GasTypeApp.framework */,
+				D0DFBC1CF8984BB940788FD8 /* Pods_GasTypeAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -333,6 +344,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA7C90132B3B769100D3164B /* Build configuration list for PBXNativeTarget "GasTypeAppTests" */;
 			buildPhases = (
+				A230DEF0B104F95352044E63 /* [CP] Check Pods Manifest.lock */,
 				AA7C90072B3B769100D3164B /* Sources */,
 				AA7C90082B3B769100D3164B /* Frameworks */,
 				AA7C90092B3B769100D3164B /* Resources */,
@@ -435,13 +447,39 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GasTypeApp/Pods-GasTypeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A230DEF0B104F95352044E63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GasTypeAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -467,6 +505,7 @@
 				AA5DCFC32B3891D8003B89D5 /* CalculatedCoordinator.swift in Sources */,
 				AA5DCFB92B380568003B89D5 /* CustomAlert.swift in Sources */,
 				AA5DCF9E2B3673CC003B89D5 /* NSLayoutConstraints+Extension.swift in Sources */,
+				AA67A3D02FDA0317006BBC0D /* SceneDelegate.swift in Sources */,
 				AA5DCFA22B3674EC003B89D5 /* Coordinator.swift in Sources */,
 				AA5DCFC52B3A7F64003B89D5 /* UITextField+Extension.swift in Sources */,
 			);
@@ -476,7 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7C900E2B3B769100D3164B /* GasTypeAppTests.swift in Sources */,
+				AA3EC4C52FD9FF0B00C97CC8 /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +671,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -664,6 +704,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -682,12 +723,14 @@
 		};
 		AA7C90112B3B769100D3164B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5F2397C4BC93CF1D2F7219 /* Pods-GasTypeAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L923PSABUA;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thiagomonteiro.GasTypeAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -700,12 +743,14 @@
 		};
 		AA7C90122B3B769100D3164B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F5EAAE4391039F65AD663B /* Pods-GasTypeAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L923PSABUA;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thiagomonteiro.GasTypeAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

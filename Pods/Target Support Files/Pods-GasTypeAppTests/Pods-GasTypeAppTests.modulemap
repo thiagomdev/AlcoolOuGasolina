@@ -1,0 +1,6 @@
+framework module Pods_GasTypeAppTests {
+  umbrella header "Pods-GasTypeAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

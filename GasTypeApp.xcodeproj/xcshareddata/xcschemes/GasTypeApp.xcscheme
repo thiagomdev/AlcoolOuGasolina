@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1430"
+   LastUpgradeVersion = "2700"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -34,7 +34,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA7C8FF02B3B754B00D3164B"
+               BlueprintIdentifier = "AA7C900A2B3B769100D3164B"
                BuildableName = "GasTypeAppTests.xctest"
                BlueprintName = "GasTypeAppTests"
                ReferencedContainer = "container:GasTypeApp.xcodeproj">
@@ -45,7 +45,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA7C8FF02B3B754B00D3164B"
+               BlueprintIdentifier = "AA7C900A2B3B769100D3164B"
                BuildableName = "GasTypeAppTests.xctest"
                BlueprintName = "GasTypeAppTests"
                ReferencedContainer = "container:GasTypeApp.xcodeproj">
