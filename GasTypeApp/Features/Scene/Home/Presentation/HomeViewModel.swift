@@ -5,7 +5,7 @@ protocol HomeViewModeling {
 }
 
 final class HomeViewModel {
-    private var coordinator: HomeCoordinating
+    private let coordinator: HomeCoordinating
     
     init(coordinator: HomeCoordinating) {
         self.coordinator = coordinator

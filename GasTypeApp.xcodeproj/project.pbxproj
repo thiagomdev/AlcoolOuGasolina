@@ -30,7 +30,22 @@
 		AA5DCFC32B3891D8003B89D5 /* CalculatedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFC22B3891D8003B89D5 /* CalculatedCoordinator.swift */; };
 		AA5DCFC52B3A7F64003B89D5 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DCFC42B3A7F63003B89D5 /* UITextField+Extension.swift */; };
 		AA67A3D02FDA0317006BBC0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67A3CF2FDA0317006BBC0D /* SceneDelegate.swift */; };
+		AA67A4A82FDA3973006BBC0D /* GasTypeCalculatorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67A4A72FDA3973006BBC0D /* GasTypeCalculatorViewModelTests.swift */; };
 		AA9423DD2B3AF811001FF602 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9423DC2B3AF811001FF602 /* UIImageView+Extension.swift */; };
+		AAAD7C102FDA3E26009DE84E /* CalculatedViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C0F2FDA3E26009DE84E /* CalculatedViewModelTests.swift */; };
+		AAAD7C122FDA3E35009DE84E /* HomeCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C112FDA3E35009DE84E /* HomeCoordinatorTests.swift */; };
+		AAAD7C142FDA3E42009DE84E /* GasTypeCalculatorCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C132FDA3E42009DE84E /* GasTypeCalculatorCoordinatorTests.swift */; };
+		AAAD7C162FDA3E4E009DE84E /* CalculatedCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C152FDA3E4E009DE84E /* CalculatedCoordinatorTests.swift */; };
+		AAAD7C182FDA3E5D009DE84E /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C172FDA3E5D009DE84E /* AppCoordinatorTests.swift */; };
+		AAAD7C202FDA3FB4009DE84E /* ViewHierarchyTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C1F2FDA3FB4009DE84E /* ViewHierarchyTestHelpers.swift */; };
+		AAAD7C222FDA3FBB009DE84E /* UIViewExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C212FDA3FBB009DE84E /* UIViewExtensionTests.swift */; };
+		AAAD7C242FDA3FC2009DE84E /* UIImageViewExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C232FDA3FC2009DE84E /* UIImageViewExtensionTests.swift */; };
+		AAAD7C262FDA3FCC009DE84E /* UITextFieldExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C252FDA3FCC009DE84E /* UITextFieldExtensionTests.swift */; };
+		AAAD7C282FDA3FD4009DE84E /* NSLayoutConstraintExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C272FDA3FD4009DE84E /* NSLayoutConstraintExtensionTests.swift */; };
+		AAAD7C2A2FDA3FDD009DE84E /* CustomAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C292FDA3FDD009DE84E /* CustomAlertTests.swift */; };
+		AAAD7C2C2FDA3FEB009DE84E /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C2B2FDA3FEB009DE84E /* HomeViewControllerTests.swift */; };
+		AAAD7C2E2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C2D2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift */; };
+		AAAD7C302FDA401C009DE84E /* CalculatedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C2F2FDA401C009DE84E /* CalculatedViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +87,23 @@
 		AA5DCFC22B3891D8003B89D5 /* CalculatedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedCoordinator.swift; sourceTree = "<group>"; };
 		AA5DCFC42B3A7F63003B89D5 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		AA67A3CF2FDA0317006BBC0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA67A4A72FDA3973006BBC0D /* GasTypeCalculatorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorViewModelTests.swift; sourceTree = "<group>"; };
 		AA7C900B2B3B769100D3164B /* GasTypeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasTypeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9423DC2B3AF811001FF602 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		AAAD7C0F2FDA3E26009DE84E /* CalculatedViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedViewModelTests.swift; sourceTree = "<group>"; };
+		AAAD7C112FDA3E35009DE84E /* HomeCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorTests.swift; sourceTree = "<group>"; };
+		AAAD7C132FDA3E42009DE84E /* GasTypeCalculatorCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorCoordinatorTests.swift; sourceTree = "<group>"; };
+		AAAD7C152FDA3E4E009DE84E /* CalculatedCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedCoordinatorTests.swift; sourceTree = "<group>"; };
+		AAAD7C172FDA3E5D009DE84E /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		AAAD7C1F2FDA3FB4009DE84E /* ViewHierarchyTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHierarchyTestHelpers.swift; sourceTree = "<group>"; };
+		AAAD7C212FDA3FBB009DE84E /* UIViewExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensionTests.swift; sourceTree = "<group>"; };
+		AAAD7C232FDA3FC2009DE84E /* UIImageViewExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensionTests.swift; sourceTree = "<group>"; };
+		AAAD7C252FDA3FCC009DE84E /* UITextFieldExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensionTests.swift; sourceTree = "<group>"; };
+		AAAD7C272FDA3FD4009DE84E /* NSLayoutConstraintExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtensionTests.swift; sourceTree = "<group>"; };
+		AAAD7C292FDA3FDD009DE84E /* CustomAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertTests.swift; sourceTree = "<group>"; };
+		AAAD7C2B2FDA3FEB009DE84E /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		AAAD7C2D2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorViewControllerTests.swift; sourceTree = "<group>"; };
+		AAAD7C2F2FDA401C009DE84E /* CalculatedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedViewControllerTests.swift; sourceTree = "<group>"; };
 		D0DFBC1CF8984BB940788FD8 /* Pods_GasTypeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasTypeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -301,12 +331,171 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		AA7C900C2B3B769100D3164B /* GasTypeAppTests */ = {
+		AA67A49F2FDA38FD006BBC0D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AA67A4A02FDA3904006BBC0D /* Scenes */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AA67A4A02FDA3904006BBC0D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AA67A4A12FDA390E006BBC0D /* Home */,
+				AA67A4A32FDA3947006BBC0D /* CalculatorView */,
+				AAAD7C0C2FDA3E16009DE84E /* CalculatedView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AA67A4A12FDA390E006BBC0D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AA67A4A22FDA3914006BBC0D /* Presentation */,
+				AAAD7C092FDA3E12009DE84E /* Coordinator */,
+				AAAD7C1C2FDA3FAC009DE84E /* UI */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AA67A4A22FDA3914006BBC0D /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				AA3EC4C42FD9FF0B00C97CC8 /* HomeViewModelTests.swift */,
 			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AA67A4A32FDA3947006BBC0D /* CalculatorView */ = {
+			isa = PBXGroup;
+			children = (
+				AA67A4A42FDA3951006BBC0D /* Presentation */,
+				AAAD7C0A2FDA3E13009DE84E /* Coordinator */,
+				AAAD7C1D2FDA3FAD009DE84E /* UI */,
+			);
+			path = CalculatorView;
+			sourceTree = "<group>";
+		};
+		AA67A4A42FDA3951006BBC0D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AA67A4A72FDA3973006BBC0D /* GasTypeCalculatorViewModelTests.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AA7C900C2B3B769100D3164B /* GasTypeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA67A49F2FDA38FD006BBC0D /* Features */,
+				AAAD7C0B2FDA3E13009DE84E /* Start */,
+				AAAD7C192FDA3FAA009DE84E /* Extensions */,
+				AAAD7C1A2FDA3FAB009DE84E /* Core */,
+				AAAD7C1B2FDA3FAB009DE84E /* Helpers */,
+			);
 			path = GasTypeAppTests;
+			sourceTree = "<group>";
+		};
+		AAAD7C092FDA3E12009DE84E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C112FDA3E35009DE84E /* HomeCoordinatorTests.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AAAD7C0A2FDA3E13009DE84E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C132FDA3E42009DE84E /* GasTypeCalculatorCoordinatorTests.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AAAD7C0B2FDA3E13009DE84E /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C172FDA3E5D009DE84E /* AppCoordinatorTests.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		AAAD7C0C2FDA3E16009DE84E /* CalculatedView */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C0D2FDA3E1A009DE84E /* Presentation */,
+				AAAD7C0E2FDA3E1A009DE84E /* Coordinator */,
+				AAAD7C1E2FDA3FAD009DE84E /* UI */,
+			);
+			path = CalculatedView;
+			sourceTree = "<group>";
+		};
+		AAAD7C0D2FDA3E1A009DE84E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C0F2FDA3E26009DE84E /* CalculatedViewModelTests.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AAAD7C0E2FDA3E1A009DE84E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C152FDA3E4E009DE84E /* CalculatedCoordinatorTests.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AAAD7C192FDA3FAA009DE84E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C212FDA3FBB009DE84E /* UIViewExtensionTests.swift */,
+				AAAD7C232FDA3FC2009DE84E /* UIImageViewExtensionTests.swift */,
+				AAAD7C252FDA3FCC009DE84E /* UITextFieldExtensionTests.swift */,
+				AAAD7C272FDA3FD4009DE84E /* NSLayoutConstraintExtensionTests.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AAAD7C1A2FDA3FAB009DE84E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C292FDA3FDD009DE84E /* CustomAlertTests.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AAAD7C1B2FDA3FAB009DE84E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C1F2FDA3FB4009DE84E /* ViewHierarchyTestHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AAAD7C1C2FDA3FAC009DE84E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C2B2FDA3FEB009DE84E /* HomeViewControllerTests.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AAAD7C1D2FDA3FAD009DE84E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C2D2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AAAD7C1E2FDA3FAD009DE84E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD7C2F2FDA401C009DE84E /* CalculatedViewControllerTests.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		B6E9DBE7FE075777140388B8 /* Frameworks */ = {
@@ -515,7 +704,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA67A4A82FDA3973006BBC0D /* GasTypeCalculatorViewModelTests.swift in Sources */,
+				AAAD7C282FDA3FD4009DE84E /* NSLayoutConstraintExtensionTests.swift in Sources */,
+				AAAD7C302FDA401C009DE84E /* CalculatedViewControllerTests.swift in Sources */,
+				AAAD7C122FDA3E35009DE84E /* HomeCoordinatorTests.swift in Sources */,
+				AAAD7C2E2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift in Sources */,
+				AAAD7C2A2FDA3FDD009DE84E /* CustomAlertTests.swift in Sources */,
+				AAAD7C242FDA3FC2009DE84E /* UIImageViewExtensionTests.swift in Sources */,
+				AAAD7C162FDA3E4E009DE84E /* CalculatedCoordinatorTests.swift in Sources */,
 				AA3EC4C52FD9FF0B00C97CC8 /* HomeViewModelTests.swift in Sources */,
+				AAAD7C222FDA3FBB009DE84E /* UIViewExtensionTests.swift in Sources */,
+				AAAD7C102FDA3E26009DE84E /* CalculatedViewModelTests.swift in Sources */,
+				AAAD7C262FDA3FCC009DE84E /* UITextFieldExtensionTests.swift in Sources */,
+				AAAD7C142FDA3E42009DE84E /* GasTypeCalculatorCoordinatorTests.swift in Sources */,
+				AAAD7C2C2FDA3FEB009DE84E /* HomeViewControllerTests.swift in Sources */,
+				AAAD7C202FDA3FB4009DE84E /* ViewHierarchyTestHelpers.swift in Sources */,
+				AAAD7C182FDA3E5D009DE84E /* AppCoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -67,7 +67,8 @@ final class GasTypeCalculatorViewController: UIViewController {
     }
     
     private func handleAlert() {
-        viewModel.showAlert = {
+        viewModel.showAlert = { [weak self] in
+            guard let self else { return }
             let alert = CustomAlert(view: self)
             alert.showAlert(
                 title: "Atenção!",

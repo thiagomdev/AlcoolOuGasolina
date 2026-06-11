@@ -11,9 +11,7 @@ final class GasTypeCalculatorViewModel {
     private var coordinator: GasTypeCalculatorCoordinating
     var showAlert: (() -> Void)?
     
-    init(
-        coordinator: GasTypeCalculatorCoordinating
-    ) {
+    init(coordinator: GasTypeCalculatorCoordinating) {
         self.coordinator = coordinator
     }
 }
