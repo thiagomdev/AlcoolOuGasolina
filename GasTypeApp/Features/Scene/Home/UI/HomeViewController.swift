@@ -38,7 +38,9 @@ final class HomeViewController: UIViewController {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: false)
     }
-    
+}
+
+extension HomeViewController {
     @objc
     private func handleStartButton() {
         viewModel.openGasTypeView()

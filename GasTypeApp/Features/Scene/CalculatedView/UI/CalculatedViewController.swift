@@ -64,7 +64,9 @@ final class CalculatedViewController: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+}
+
+extension CalculatedViewController {
     @objc
     private func handleCalculatedPriceButton() {
         viewModel.calculatePrice()

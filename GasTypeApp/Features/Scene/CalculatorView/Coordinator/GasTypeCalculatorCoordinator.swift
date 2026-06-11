@@ -15,11 +15,7 @@ final class GasTypeCalculatorCoordinator {
     private weak var presentingCoordinator: CalculatedCoordinating?
     private var calculatedCoordinator: CalculatedCoordinating?
     
-    init(
-        window: UIWindow,
-        navigation: UINavigationController,
-        calculatedCoordinator: CalculatedCoordinating
-    ) {
+    init(window: UIWindow, navigation: UINavigationController, calculatedCoordinator: CalculatedCoordinating) {
         self.window = window
         self.navigation = navigation
         self.presentingCoordinator = calculatedCoordinator

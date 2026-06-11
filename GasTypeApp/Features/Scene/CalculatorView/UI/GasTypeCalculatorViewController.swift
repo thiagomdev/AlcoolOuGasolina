@@ -52,7 +52,9 @@ final class GasTypeCalculatorViewController: UIViewController {
         super.touchesBegan(touches, with: event)
         view.endEditing(true)
     }
-    
+}
+
+extension GasTypeCalculatorViewController {
     @objc
     private func handleCalculateButton() {
         handleAlert()
@@ -60,12 +62,16 @@ final class GasTypeCalculatorViewController: UIViewController {
         guard let gas = gasPriceTextField.text else { return }
         viewModel.calculatePrice(from: ethanol, gas)
     }
-    
+}
+
+extension GasTypeCalculatorViewController {
     @objc
     private func handleBackButton() {
         viewModel.backToHome()
     }
-    
+}
+
+extension GasTypeCalculatorViewController {
     private func handleAlert() {
         viewModel.showAlert = { [weak self] in
             guard let self else { return }
