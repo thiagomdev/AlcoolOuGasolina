@@ -164,7 +164,7 @@
 				AA5DCF992B367137003B89D5 /* Core */,
 				AA5DCF962B3670E7003B89D5 /* Start */,
 				AA5DCF9A2B36713D003B89D5 /* Extensions */,
-				AA5DCF952B3670E3003B89D5 /* Features */,
+				AA5DCF972B367102003B89D5 /* Scenes */,
 				AA5DCF942B3670DE003B89D5 /* Resources */,
 			);
 			path = GasTypeApp;
@@ -180,14 +180,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		AA5DCF952B3670E3003B89D5 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				AA5DCF972B367102003B89D5 /* Scene */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
 		AA5DCF962B3670E7003B89D5 /* Start */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,14 +191,14 @@
 			path = Start;
 			sourceTree = "<group>";
 		};
-		AA5DCF972B367102003B89D5 /* Scene */ = {
+		AA5DCF972B367102003B89D5 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
 				AA5DCF982B36710A003B89D5 /* Home */,
 				AA5DCFAE2B368B16003B89D5 /* CalculatorView */,
 				AA5DCFBA2B389130003B89D5 /* CalculatedView */,
 			);
-			path = Scene;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		AA5DCF982B36710A003B89D5 /* Home */ = {
