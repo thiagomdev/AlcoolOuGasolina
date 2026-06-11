@@ -12,6 +12,7 @@ final class GasTypeCalculatorCoordinator {
     private var navigation: UINavigationController
     private var root: UIViewController?
     private var homeCoordinator: HomeCoordinating?
+    private weak var presentingCoordinator: CalculatedCoordinating?
     private var calculatedCoordinator: CalculatedCoordinating?
     
     init(
@@ -21,7 +22,7 @@ final class GasTypeCalculatorCoordinator {
     ) {
         self.window = window
         self.navigation = navigation
-        self.calculatedCoordinator = calculatedCoordinator
+        self.presentingCoordinator = calculatedCoordinator
     }
 }
 

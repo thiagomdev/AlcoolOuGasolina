@@ -5,7 +5,7 @@ protocol CalculatedViewModeling {
 }
 
 final class CalculatedViewModel {
-    private var coordinator: CalculatedCoordinating
+    private weak var coordinator: CalculatedCoordinating?
     
     init(
         coordinator: CalculatedCoordinating
@@ -16,6 +16,6 @@ final class CalculatedViewModel {
 
 extension CalculatedViewModel: CalculatedViewModeling {
     func calculatePrice() {
-        coordinator.calculatePriceAgain()
+        coordinator?.calculatePriceAgain()
     }
 }

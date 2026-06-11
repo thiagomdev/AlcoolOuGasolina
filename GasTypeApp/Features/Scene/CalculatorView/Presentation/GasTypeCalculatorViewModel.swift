@@ -8,7 +8,7 @@ protocol GasTypeCalculatorViewModeling {
 }
 
 final class GasTypeCalculatorViewModel {
-    private var coordinator: GasTypeCalculatorCoordinating
+    private weak var coordinator: GasTypeCalculatorCoordinating?
     var showAlert: (() -> Void)?
     
     init(coordinator: GasTypeCalculatorCoordinating) {
@@ -18,7 +18,7 @@ final class GasTypeCalculatorViewModel {
 
 extension GasTypeCalculatorViewModel: GasTypeCalculatorViewModeling {
     func backToHome() {
-        coordinator.backToHome()
+        coordinator?.backToHome()
     }
     
     func calculatePrice(from ethanol: String, _ gas: String) {
@@ -30,9 +30,9 @@ extension GasTypeCalculatorViewModel: GasTypeCalculatorViewModeling {
             let gasPrice: Double = formatter.number(from: gas) as? Double ?? .zero
 
             if ethanolPrice / gasPrice > 0.7 {
-                coordinator.displayCalculatedPrice(from: .gas)
+                coordinator?.displayCalculatedPrice(from: .gas)
             } else {
-                coordinator.displayCalculatedPrice(from: .ethanol)
+                coordinator?.displayCalculatedPrice(from: .ethanol)
             }
         }
     }

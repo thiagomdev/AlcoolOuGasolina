@@ -53,6 +53,7 @@ extension CalculatedCoordinatorTests {
             navigation: UINavigationController()
         )
 
+        trackForMemoryLeaks(sut, file: file, line: line)        
         return (sut, window)
     }
 

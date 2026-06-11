@@ -1,6 +1,6 @@
 import UIKit
 
-protocol CalculatedCoordinating {
+protocol CalculatedCoordinating: AnyObject {
     func start(from gasType: GasType)
     func calculatePriceAgain()
 }
@@ -10,10 +10,7 @@ final class CalculatedCoordinator {
     private var navigation: UINavigationController
     private var coordinator: GasTypeCalculatorCoordinating?
     
-    init(
-        window: UIWindow,
-        navigation: UINavigationController
-    ) {
+    init(window: UIWindow, navigation: UINavigationController) {
         self.window = window
         self.navigation = navigation
     }

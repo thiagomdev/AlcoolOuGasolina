@@ -5,7 +5,7 @@ protocol HomeViewModeling {
 }
 
 final class HomeViewModel {
-    private let coordinator: HomeCoordinating
+    private weak var coordinator: HomeCoordinating?
     
     init(coordinator: HomeCoordinating) {
         self.coordinator = coordinator
@@ -14,6 +14,6 @@ final class HomeViewModel {
 
 extension HomeViewModel: HomeViewModeling {
     func openGasTypeView() {
-        coordinator.openGasTypeView()
+        coordinator?.openGasTypeView()
     }
 }
