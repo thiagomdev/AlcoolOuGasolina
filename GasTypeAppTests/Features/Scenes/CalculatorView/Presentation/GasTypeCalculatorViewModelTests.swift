@@ -64,25 +64,3 @@ extension GasTypeCalculatorViewModelTests {
         return (sut, spy)
     }
 }
-
-final class GasTypeCalculatorCoordinatingSpy: GasTypeCalculatorCoordinating {
-    enum Message: Hashable {
-        case start
-        case backToHome
-        case displayCalculatedPrice(gasType: GasType)
-    }
-    
-    private(set) var messages = [Message]()
-    
-    func start() {
-        messages.append(.start)
-    }
-    
-    func backToHome() {
-        messages.append(.backToHome)
-    }
-    
-    func displayCalculatedPrice(from gasType: GasType) {
-        messages.append(.displayCalculatedPrice(gasType: gasType))
-    }
-}

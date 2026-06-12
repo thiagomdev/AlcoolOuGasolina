@@ -67,15 +67,3 @@ extension CalculatedViewControllerTests {
         return (sut, spy)
     }
 }
-
-final class CalculatedViewModelingSpy: CalculatedViewModeling {
-    enum Message: Hashable {
-        case calculatePrice
-    }
-
-    private(set) var messages = [Message]()
-
-    func calculatePrice() {
-        messages.append(.calculatePrice)
-    }
-}

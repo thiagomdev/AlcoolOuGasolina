@@ -29,20 +29,3 @@ extension HomeViewModelTests {
         return (sut, homeCoordinatingSpy)
     }
 }
-
-final class HomeCoordinatingSpy: HomeCoordinating {
-    enum Message {
-        case start
-        case openGasTypeView
-    }
-    
-    private(set) var messages = [Message]()
-    
-    func start() {
-        messages.append(.start)
-    }
-    
-    func openGasTypeView() {
-        messages.append(.openGasTypeView)
-    }
-}

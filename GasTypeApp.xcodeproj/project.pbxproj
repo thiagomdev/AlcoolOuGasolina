@@ -47,6 +47,12 @@
 		AAAD7C2E2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C2D2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift */; };
 		AAAD7C302FDA401C009DE84E /* CalculatedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C2F2FDA401C009DE84E /* CalculatedViewControllerTests.swift */; };
 		AAB59B802FDC3A3C00C79586 /* XCTestCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB59B7F2FDC3A3400C79586 /* XCTestCase+Extension.swift */; };
+		AAB59B832FDC3FE500C79586 /* HomeCoordinatingSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB59B822FDC3FE400C79586 /* HomeCoordinatingSpy.swift */; };
+		AAB59B862FDC402300C79586 /* GasTypeCalculatorCoordinatingSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB59B852FDC402200C79586 /* GasTypeCalculatorCoordinatingSpy.swift */; };
+		AAB59B882FDC405D00C79586 /* HomeViewModelingSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB59B872FDC405C00C79586 /* HomeViewModelingSpy.swift */; };
+		AAB59B8A2FDC409600C79586 /* GasTypeCalculatorViewModelingSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB59B892FDC409400C79586 /* GasTypeCalculatorViewModelingSpy.swift */; };
+		AAB59B8C2FDC40D600C79586 /* CalculatedCoordinatingSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB59B8B2FDC40D600C79586 /* CalculatedCoordinatingSpy.swift */; };
+		AAB59B8E2FDC40F800C79586 /* CalculatedViewModelingSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB59B8D2FDC40F800C79586 /* CalculatedViewModelingSpy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +112,12 @@
 		AAAD7C2D2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorViewControllerTests.swift; sourceTree = "<group>"; };
 		AAAD7C2F2FDA401C009DE84E /* CalculatedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedViewControllerTests.swift; sourceTree = "<group>"; };
 		AAB59B7F2FDC3A3400C79586 /* XCTestCase+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extension.swift"; sourceTree = "<group>"; };
+		AAB59B822FDC3FE400C79586 /* HomeCoordinatingSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatingSpy.swift; sourceTree = "<group>"; };
+		AAB59B852FDC402200C79586 /* GasTypeCalculatorCoordinatingSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorCoordinatingSpy.swift; sourceTree = "<group>"; };
+		AAB59B872FDC405C00C79586 /* HomeViewModelingSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelingSpy.swift; sourceTree = "<group>"; };
+		AAB59B892FDC409400C79586 /* GasTypeCalculatorViewModelingSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorViewModelingSpy.swift; sourceTree = "<group>"; };
+		AAB59B8B2FDC40D600C79586 /* CalculatedCoordinatingSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedCoordinatingSpy.swift; sourceTree = "<group>"; };
+		AAB59B8D2FDC40F800C79586 /* CalculatedViewModelingSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedViewModelingSpy.swift; sourceTree = "<group>"; };
 		D0DFBC1CF8984BB940788FD8 /* Pods_GasTypeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasTypeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -328,7 +340,6 @@
 		AA67A49F2FDA38FD006BBC0D /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				AAB59B7E2FDC3A2700C79586 /* Helpers */,
 				AA67A4A02FDA3904006BBC0D /* Scenes */,
 			);
 			path = Features;
@@ -464,6 +475,8 @@
 		AAAD7C1B2FDA3FAB009DE84E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				AAB59B842FDC400500C79586 /* Extensions */,
+				AAB59B812FDC3FDC00C79586 /* Spies */,
 				AAAD7C1F2FDA3FB4009DE84E /* ViewHierarchyTestHelpers.swift */,
 			);
 			path = Helpers;
@@ -493,12 +506,25 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
-		AAB59B7E2FDC3A2700C79586 /* Helpers */ = {
+		AAB59B812FDC3FDC00C79586 /* Spies */ = {
+			isa = PBXGroup;
+			children = (
+				AAB59B8D2FDC40F800C79586 /* CalculatedViewModelingSpy.swift */,
+				AAB59B8B2FDC40D600C79586 /* CalculatedCoordinatingSpy.swift */,
+				AAB59B892FDC409400C79586 /* GasTypeCalculatorViewModelingSpy.swift */,
+				AAB59B872FDC405C00C79586 /* HomeViewModelingSpy.swift */,
+				AAB59B822FDC3FE400C79586 /* HomeCoordinatingSpy.swift */,
+				AAB59B852FDC402200C79586 /* GasTypeCalculatorCoordinatingSpy.swift */,
+			);
+			path = Spies;
+			sourceTree = "<group>";
+		};
+		AAB59B842FDC400500C79586 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				AAB59B7F2FDC3A3400C79586 /* XCTestCase+Extension.swift */,
 			);
-			path = Helpers;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B6E9DBE7FE075777140388B8 /* Frameworks */ = {
@@ -719,11 +745,17 @@
 				AA3EC4C52FD9FF0B00C97CC8 /* HomeViewModelTests.swift in Sources */,
 				AAAD7C222FDA3FBB009DE84E /* UIViewExtensionTests.swift in Sources */,
 				AAAD7C102FDA3E26009DE84E /* CalculatedViewModelTests.swift in Sources */,
+				AAB59B862FDC402300C79586 /* GasTypeCalculatorCoordinatingSpy.swift in Sources */,
+				AAB59B8C2FDC40D600C79586 /* CalculatedCoordinatingSpy.swift in Sources */,
 				AAAD7C262FDA3FCC009DE84E /* UITextFieldExtensionTests.swift in Sources */,
 				AAAD7C142FDA3E42009DE84E /* GasTypeCalculatorCoordinatorTests.swift in Sources */,
+				AAB59B8E2FDC40F800C79586 /* CalculatedViewModelingSpy.swift in Sources */,
+				AAB59B832FDC3FE500C79586 /* HomeCoordinatingSpy.swift in Sources */,
 				AAAD7C2C2FDA3FEB009DE84E /* HomeViewControllerTests.swift in Sources */,
 				AAAD7C202FDA3FB4009DE84E /* ViewHierarchyTestHelpers.swift in Sources */,
 				AAAD7C182FDA3E5D009DE84E /* AppCoordinatorTests.swift in Sources */,
+				AAB59B882FDC405D00C79586 /* HomeViewModelingSpy.swift in Sources */,
+				AAB59B8A2FDC409600C79586 /* GasTypeCalculatorViewModelingSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
