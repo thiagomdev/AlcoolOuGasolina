@@ -11,27 +11,38 @@ import XCTest
 
 final class HomeCoordinatorTests: XCTestCase {
     func test_openGasTypeView_shouldStartGasTypeCoordinator() {
-        let (sut, _, gasTypeSpy) = makeSut()
+        let (sut, doubles) = makeSut()
 
         sut.openGasTypeView()
 
-        XCTAssertEqual(gasTypeSpy.messages, [.start])
+        XCTAssertEqual(doubles.gasTypeSpy.messages, [.start])
     }
 
     func test_start_shouldSetHomeViewControllerAsWindowRoot() {
-        let (sut, window, _) = makeSut()
+        let (sut, doubles) = makeSut()
 
         sut.start()
 
-        XCTAssertTrue(window.rootViewController is UINavigationController)
-        XCTAssertTrue(topViewController(in: window) is HomeViewController)
+        XCTAssertTrue(doubles.window.rootViewController is UINavigationController)
+        XCTAssertTrue(topViewController(in: doubles.window) is HomeViewController)
 
-        window.rootViewController = nil
+        doubles.window.rootViewController = nil
     }
 }
 
 extension HomeCoordinatorTests {
-    private func makeSut(file: StaticString = #filePath, line: UInt = #line) -> (sut: HomeCoordinator, window: UIWindow, gasTypeSpy: GasTypeCalculatorCoordinatingSpy) {
+    private typealias Doubles = (
+        window: UIWindow,
+        gasTypeSpy: GasTypeCalculatorCoordinatingSpy
+    )
+    
+    private func makeSut(
+        file: StaticString = #filePath,
+        line: UInt = #line
+    ) -> (
+        sut: HomeCoordinator,
+        doubles: Doubles
+    ) {
         let window = UIWindow()
         let gasTypeSpy = GasTypeCalculatorCoordinatingSpy()
         let sut = HomeCoordinator(
@@ -40,9 +51,10 @@ extension HomeCoordinatorTests {
             gasTypeCoordinator: gasTypeSpy
         )
 
+        trackForMemoryLeaks(sut, file: file, line: line)
         trackForMemoryLeaks(gasTypeSpy, file: file, line: line)
 
-        return (sut, window, gasTypeSpy)
+        return (sut, (window, gasTypeSpy))
     }
 
     private func topViewController(in window: UIWindow) -> UIViewController? {

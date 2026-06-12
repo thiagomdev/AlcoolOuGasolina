@@ -62,7 +62,9 @@ public extension IQKeyboardManager {
         registerTextFieldViewClass(UITextView.self, didBeginEditingNotificationName: UITextView.textDidBeginEditingNotification.rawValue, didEndEditingNotificationName: UITextView.textDidEndEditingNotification.rawValue)
 
         //  Registering for orientation changes notification
-        NotificationCenter.default.addObserver(self, selector: #selector(self.willChangeStatusBarOrientation(_:)), name: UIApplication.willChangeStatusBarOrientationNotification, object: UIApplication.shared)
+        // Referencing the notification by its raw name avoids the iOS 13 deprecation
+        // warning while still observing the exact same UIApplication orientation notification.
+        NotificationCenter.default.addObserver(self, selector: #selector(self.willChangeStatusBarOrientation(_:)), name: Notification.Name("UIApplicationWillChangeStatusBarOrientationNotification"), object: UIApplication.shared)
     }
 
     @objc func unregisterAllNotifications() {
@@ -80,7 +82,7 @@ public extension IQKeyboardManager {
         unregisterTextFieldViewClass(UITextView.self, didBeginEditingNotificationName: UITextView.textDidBeginEditingNotification.rawValue, didEndEditingNotificationName: UITextView.textDidEndEditingNotification.rawValue)
 
         //  Unregistering for orientation changes notification
-        NotificationCenter.default.removeObserver(self, name: UIApplication.willChangeStatusBarOrientationNotification, object: UIApplication.shared)
+        NotificationCenter.default.removeObserver(self, name: Notification.Name("UIApplicationWillChangeStatusBarOrientationNotification"), object: UIApplication.shared)
     }
 
     struct Static {

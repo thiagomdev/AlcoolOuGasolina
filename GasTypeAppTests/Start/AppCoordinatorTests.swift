@@ -45,7 +45,7 @@ final class AppCoordinatorTests: XCTestCase {
 }
 
 extension AppCoordinatorTests {
-    private func makeSut(file: StaticString = #filePath, line: UInt = #line) -> (sut: AppCoordinator, window: UIWindow) {
+    private func makeSut() -> (sut: AppCoordinator, window: UIWindow) {
         let window = UIWindow()
         let navigation = UINavigationController()
 
