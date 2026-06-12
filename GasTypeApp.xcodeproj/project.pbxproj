@@ -46,6 +46,7 @@
 		AAAD7C2C2FDA3FEB009DE84E /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C2B2FDA3FEB009DE84E /* HomeViewControllerTests.swift */; };
 		AAAD7C2E2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C2D2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift */; };
 		AAAD7C302FDA401C009DE84E /* CalculatedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD7C2F2FDA401C009DE84E /* CalculatedViewControllerTests.swift */; };
+		AAB59B802FDC3A3C00C79586 /* XCTestCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB59B7F2FDC3A3400C79586 /* XCTestCase+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		AAAD7C2B2FDA3FEB009DE84E /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
 		AAAD7C2D2FDA400C009DE84E /* GasTypeCalculatorViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasTypeCalculatorViewControllerTests.swift; sourceTree = "<group>"; };
 		AAAD7C2F2FDA401C009DE84E /* CalculatedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedViewControllerTests.swift; sourceTree = "<group>"; };
+		AAB59B7F2FDC3A3400C79586 /* XCTestCase+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extension.swift"; sourceTree = "<group>"; };
 		D0DFBC1CF8984BB940788FD8 /* Pods_GasTypeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasTypeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -326,6 +328,7 @@
 		AA67A49F2FDA38FD006BBC0D /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				AAB59B7E2FDC3A2700C79586 /* Helpers */,
 				AA67A4A02FDA3904006BBC0D /* Scenes */,
 			);
 			path = Features;
@@ -488,6 +491,14 @@
 				AAAD7C2F2FDA401C009DE84E /* CalculatedViewControllerTests.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		AAB59B7E2FDC3A2700C79586 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAB59B7F2FDC3A3400C79586 /* XCTestCase+Extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		B6E9DBE7FE075777140388B8 /* Frameworks */ = {
@@ -697,6 +708,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA67A4A82FDA3973006BBC0D /* GasTypeCalculatorViewModelTests.swift in Sources */,
+				AAB59B802FDC3A3C00C79586 /* XCTestCase+Extension.swift in Sources */,
 				AAAD7C282FDA3FD4009DE84E /* NSLayoutConstraintExtensionTests.swift in Sources */,
 				AAAD7C302FDA401C009DE84E /* CalculatedViewControllerTests.swift in Sources */,
 				AAAD7C122FDA3E35009DE84E /* HomeCoordinatorTests.swift in Sources */,
